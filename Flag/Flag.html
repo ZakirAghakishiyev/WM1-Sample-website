@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Flag of Azerbaijan</title>
+    <style>
+        /* Main flag container */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+        }
+
+        .azFlag {
+            width: 100%;
+            height: 100%;
+            background: #e00034;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top: 235px solid #0097c3;
+            border-bottom: 235px solid #00ae65;
+            z-index: -1;
+            position: relative;
+        }
+
+        .crescent {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: #e00034;
+            position: relative;
+            box-shadow: -20px 0 0 14px #fff;
+        }
+
+        #star {
+	background: 0 0;
+	width: 66px;
+	height: 0;
+	position: relative;
+	top: 70px;
+	left: 130px;
+	border-top: solid 15px #fff;
+	border-bottom: solid 15px #fff;
+	border-left: solid 15px transparent;
+	border-right: solid 15px transparent;
+	-webkit-transform: rotate(70deg);
+	-ms-transform: rotate(70deg);
+	-o-transform: rotate(70deg);
+	transform: rotate(70deg)
+}
+#star:before {
+	content: "";
+	background: 0 0;
+	width: 66px;
+	height: 0;
+	position: absolute;
+	top: -30px;
+	left: -30px;
+	border-top: solid 15px #fff;
+	border-bottom: solid 15px #fff;
+	border-left: solid 15px transparent;
+	border-right: solid 15px transparent;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg)
+}
+.circle {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background: #fff;
+	position: relative;
+	top: -20px;
+	left: 0
+}
+    </style>
+</head>
+<body>
+    <div class="azFlag">
+        <div class="crescent">
+            <div id="star">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

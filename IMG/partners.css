@@ -1,0 +1,63 @@
+.brands {
+    display: flex;
+    background-color: gold;
+    padding: 10px; 
+}
+
+.kings {
+    display: flex;
+    padding: 10px; 
+    flex-direction:column;
+    border: 1px double gold;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+.brands img{
+    width: 22%;
+    margin: 1.5%;
+}
+
+.kings img{
+    width: 15%;
+    margin: 3px;
+    justify-content: space-between;
+}
+
+.kings > p {
+    padding: 10px;
+    color: gold;
+    font-family: Arial, sans-serif;
+}
+
+body    {
+    background-color: black;
+    
+}
+
+.navigation ul{
+    list-style-type: none;
+    background-color: gold;
+    display: flex;  
+    justify-content:flex-end;  
+    height:40px
+}
+
+.navigation li{
+    background-color: gold;
+    margin-right: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navigation a{
+    height: 100%;
+    color: black;
+}
+
+.navigation li:hover{
+    background-color: rgb(143, 122, 0);
+}

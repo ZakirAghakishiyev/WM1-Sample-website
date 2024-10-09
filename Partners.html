@@ -1,13 +1,76 @@
 <html>
-    <head></head>
+    <head>
         <title>Iker Casillas</title>
-        <link rel="icon" type="image/x-icon" href="IMG\casillas.ico">
+        <link rel="icon" type="image/x-icon" href="IMG/casillas.ico">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .brands {
+                display: flex;
+                background-color: gold;
+                padding: 10px; 
+            }
+
+            .kings {
+                display: flex;
+                padding: 10px; 
+                flex-direction:column;
+                border: 1px double gold;
+                border-radius: 5px;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                }
+            
+
+            .brands img{
+                width: 22%;
+                margin: 1.5%;
+            }
+            
+            .kings img{
+                width: 15%;
+                margin: 3px;
+                justify-content: space-between;
+            }
+
+            .kings > p {
+                padding: 10px;
+                color: gold;
+                font-family: Arial, sans-serif;
+            }
+        </style>
     </head>
     <body>
-        <img src="IMG/Adidas_logo.png" alt="Adidas" width="22%" style="margin-right: 2.5%"/>
-        <img src="IMG/Hisense.svg.png" alt="Hisense" width="22%" style="margin-right: 2.5%"/>
-        <img src="IMG/AIX.png" alt="AIX" width="22%" style="margin-right: 2.5%"/>
-        <img src="IMG/fun88.png" alt="FUN88" width="22%" style="margin-right: 2.5%"/>
+        <div class="navigation">
+        <ul>
+            <li><a href="AAAA.html">Home</a></li>
+            <li><a href="Honours.html">Honours</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="QA.hyml">Questionery</a></li>
+            <li><a href="Register.html">Register/Sign In</a></li>
+            <li><a href="Partners.html">Partners</a></li>
+    </ul>
+</div>
 
+        <h2>Sponsors:</h2>
+        <div class="brands">
+            <img src="IMG/Adidas_logo.png" alt="Adidas"  />
+            <img src="IMG/Hisense.svg.png" alt="Hisense"  />
+            <img src="IMG/AIX.png" alt="AIX"/>
+            <img src="IMG/fun88.png" alt="FUN88" />
+        </div>
+
+
+        <h2>Kings League:</h2>
+        <div class="kings">
+            <a href="https://kingsleague.pro/en/teams/12-1k-fc" target="_blank">
+                <img src="IMG/kings_league.png" alt="Kings League" ></a>
+            <a href="https://kingsleague.pro/en/teams/12-1k-fc" target="_blank">
+            <img  src="IMG/1K_F.C_logo.png" alt="1K"></a>
+
+            <p>"As president of 1K FC in the Kings League, I wanted to create a team that represents passion, teamwork, and a love for the game. We focus on giving talented players a chance to shine, and our team is built on hard work and dedication. The Kings League is a fresh and exciting challenge, and 1K FC is here to compete with intensity and honor the spirit of football. It's a new era, and I'm proud to lead this team on this journey."</p>
+            
+
+        </div>
     </body>
 </html>

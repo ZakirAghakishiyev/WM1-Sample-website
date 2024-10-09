@@ -55,12 +55,7 @@ p{
     margin-left: 5px;
 }
 
-p{
-    border: 1px double gold;
-    border-radius: 5px;
-}
-
-p{
+.bio > p{
 width: 60%;
 }
 

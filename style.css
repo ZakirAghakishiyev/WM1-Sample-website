@@ -27,29 +27,32 @@ p{
     font-size: 18px;
 }
 
-.navigation ul{
+.navigation ul {
     list-style-type: none;
-    background-color: gold;
-    display: flex;  
-    justify-content:flex-end;  
-    height:40px
-}
+    margin: 0;
+    padding: 15px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
 
-.navigation li{
-    background-color: gold;
-    margin-right: 5px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
+  .navigation ul li {
+    display: inline;
+    margin-right: 15px;
+  }
 
-.navigation a{
-    height: 100%;
+  .navigation ul li a {
+    text-decoration: none;
+    color: gold;
+    padding: 8px 16px;
+    border: 1px solid gold;
+    border-radius: 5px;
+  }
+
+  .navigation ul li a:hover {
+    background-color: gold;
     color: black;
-}
-
-.navigation li:hover{
-    background-color: rgb(143, 122, 0);
-}
+  }
 
 .Name{
     margin-left: 5px;

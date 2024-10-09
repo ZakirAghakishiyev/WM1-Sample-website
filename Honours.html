@@ -1,25 +1,58 @@
-
 <html>
     <head>
         <title>Iker Casillas</title>
-        <link rel="icon" type="image/x-icon" href="IMG\casillas.ico">
+        <link rel="icon" type="image/x-icon" href="IMG/casillas.ico">
         <link rel="stylesheet" href="./style.css">
 
         <style>
-          .club{
-            width: 45%;
+          body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: gold;
+            margin: 0;
+            padding: 0;
           }
 
-          .Individual{
-            width: 45%;
+          
+
+          .content-section {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 20px;
           }
 
-          .Records{
-            width: 45%;
+          .content-section img {
+            max-width: 40%; 
+            border: 2px solid gold;
+            border-radius: 10px;
+            margin: 20px 0;
           }
 
-          img{
-            float: right;
+          .content-box {
+            width: 55%;
+            padding: 20px;
+            border: 2px solid gold;
+            border-radius: 10px;
+            margin: 20px 0;
+          }
+
+          .content-box ul {
+            list-style-type: none;
+            padding-left: 20px;
+          }
+
+          .content-box ul ul {
+            list-style-type: disc;
+            margin-left: 20px;
+          }
+
+          h2 {
+            color: gold;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 20px 0;
+            font-size: 24px;
           }
         </style>
     </head>
@@ -27,16 +60,19 @@
     <body>
       <div class="navigation">
         <ul>
-          <li><a href="AAAA.html">Home</a></li>
-          <li><a href="Honours.html">Honours</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-          <li><a href="QA.hyml">Questionery</a></li>
-          <li><a href="Register.html">Register/Sign In</a></li>
-          <li><a href="Partners.html">Partners</a></li>
-  </ul>
-</div>
-<img src="IMG\iker_ucl.jpg" alt="Ucl" width="35%" />
-        <div class="club">
+            <li><a href="AAAA.html">Home</a></li>
+            <li><a href="Honours.html">Honours</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="">Questionnaire</a></li>
+            <li><a href="Register.html">Register/Sign In</a></li>
+            <li><a href="Partners.html">Partners</a></li>
+        </ul>
+      </div>
+
+      <h2>Club Awards</h2>
+      <div class="content-section">
+        <img src="IMG/iker_ucl.jpg" alt="Iker Casillas with UCL Trophy" />
+        <div class="content-box club">
           <ul>
             <li><strong>Club Awards</strong></li>
             <ul>
@@ -45,7 +81,6 @@
                     <li>División: 1998–99 (Group VII)</li>
                   </ul>
                 </li>
-                
                 <li>Real Madrid
                   <ul>
                     <li>La Liga: 2000–01, 2002–03, 2006–07, 2007–08, 2011–12</li>
@@ -57,32 +92,27 @@
                     <li>Intercontinental Cup: 2002</li>
                   </ul>
                 </li>
-                
                 <li>Porto
                   <ul>
                     <li>Primeira Liga: 2017–18</li>
                     <li>Supertaça Cândido de Oliveira: 2018</li>
                   </ul>
                 </li>
-                
                 <li>Spain U16
                   <ul>
                     <li>UEFA European U-16 Championship: 1997</li>
                   </ul>
                 </li>
-                
                 <li>Spain U18
                   <ul>
                     <li>UEFA–CAF Meridian Cup: 1999</li>
                   </ul>
                 </li>
-                
                 <li>Spain U20
                   <ul>
                     <li>FIFA World Youth Championship: 1999</li>
                   </ul>
                 </li>
-                
                 <li>Spain
                   <ul>
                     <li>FIFA World Cup: 2010</li>
@@ -90,14 +120,17 @@
                   </ul>
                 </li>
               </ul>
+            </ul>
+          </ul>
         </div>
-             
-        
-        <img src="IMG\iker_wc.jpg" alt="Ucl" width="35%" />
+      </div>
 
-            <br>
-            <div class="Individual">
-              <li><strong>Individual Awards</strong></li>
+      <h2>Individual Awards</h2>
+      <div class="content-section">
+        <img src="IMG/iker_indv.jpg" alt="Iker Casillas Individual Awards" />
+        <div class="content-box Individual">
+          <ul>
+            <li><strong>Individual Awards</strong></li>
             <ul>
                 <li>Bravo Award: 2000</li>
                 <li>La Liga Breakthrough Player of the Year: 2000</li>
@@ -127,44 +160,21 @@
                 <li>Globe Soccer Awards – Player Career Award: 2020</li>
                 <li>11Leyendas Jornal AS: 2021</li>
               </ul>
-            </div>
-            
-            
-            <br>
-            <div class="Records">
-              <li><strong>Broken Records</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Broken Records</h2>
+      <div class="content-section">
+        <img src="IMG/iker_wc.jpg" alt="Iker Casillas World Cup" />
+        <div class="content-box Records">
+          <ul>
+            <li><strong>Broken Records</strong></li>
             <ul>
-                <li>Second-most appearances in the UEFA Champions League: 177 (behind Cristiano Ronaldo) (excluding 4 appearances in the qualifying rounds)</li>
-                <li>Second-most clean sheets in the UEFA Champions League: 57 (excluding 2 in the qualifying rounds) (behind Manuel Neuer)</li>
-                <li>Third-most victories in the UEFA Champions League: 101 (behind Cristiano Ronaldo and Thomas Müller)</li>
+                <li>Second-most appearances in the UEFA Champions League: 177 (behind Cristiano Ronaldo)</li>
+                <li>Second-most clean sheets in the UEFA Champions League: 57 (behind Manuel Neuer)</li>
+                <li>Third-most victories in the UEFA Champions League: 101</li>
                 <li>Most consecutive seasons in the UEFA Champions League: 20</li>
                 <li>First player in UEFA Champions League history to reach the knockout phase 19 times</li>
                 <li>First goalkeeper to win 100 UEFA Champions League matches</li>
-                <li>Youngest goalkeeper to play in a UEFA Champions League final: 19 years and 4 days</li>
-                <li>Youngest goalkeeper to win a UEFA Champions League final: 19 years and 4 days</li>
-                <li>Most penalty kicks saved in the UEFA Champions League (excluding shoot-outs): 7 out of 23</li>
-                <li>Second-most UEFA Champions League titles won by a goalkeeper: 3 (behind Juan Alonso) (alongside Ray Clemence, Sepp Maier, Keylor Navas, Heinz Stuy, Víctor Valdés and Kiko Casilla)</li>
-                <li>Most appearances for Real Madrid in UEFA club competitions: 155</li>
-                <li>Most IFFHS World's Best Goalkeeper Awards: 5 (alongside Gianluigi Buffon and Manuel Neuer)</li>
-                <li>Most appearances by a goalkeeper in the FIFPro World XI: 5</li>
-                <li>Most appearances by a goalkeeper in the UEFA Team of the Year: 6</li>
-                <li>Second-most appearances for the Spain national team: 167 (behind Sergio Ramos)</li>
-                <li>Most international clean sheets: 102</li>
-                <li>Third-most international victories: 121 (behind Sergio Ramos and Cristiano Ronaldo)</li>
-                <li>Fewest goals conceded by a FIFA World Cup-winning goalkeeper in a single edition of the tournament: 2 goals in 7 appearances (in 2010, alongside Gianluigi Buffon in 2006 and Fabien Barthez in 1998)</li>
-                <li>Most clean sheets in a single edition of the FIFA World Cup: 5 (in 2010, alongside Gianluigi Buffon, Pascal Zuberbühler, Oliver Kahn, Fabien Barthez and Walter Zenga)</li>
-                <li>Most FIFA World Cup tournaments played for Spain: 4 (alongside Xavi, Andoni Zubizarreta, Fernando Hierro, Andrés Iniesta, Sergio Ramos and Sergio Busquets)</li>
-                <li>Longest unbeaten run at the UEFA European Championship: 509 minutes</li>
-                <li>Most clean sheets at the UEFA European Championship: 9 (alongside Edwin van der Sar)</li>
-                <li>Most clean sheets in a single edition of UEFA European Championship: 5 (in 2012, alongside Jordan Pickford in 2020)</li>
-                <li>Fewest goals conceded in a single edition of the UEFA European Championship: 1 (in 2012, alongside Gianluigi Buffon, Thomas Myhre, and Dino Zoff)</li>
-                <li>Most penalty kicks saved in penalty shoot-outs at the UEFA European Championship: 3 (alongside Gianluigi Buffon)</li>
-                <li>Only goalkeeper to stop penalties in two different editions of the FIFA World Cup (excluding shoot-outs): 2002 (vs Ireland), 2010 (vs Paraguay)</li>
-              </ul>
-            </div>
-            <img src="IMG\iker_indv.jpg" alt="Ucl" width="49%" />
-            
-              
-        </ul>
-    </body>
-</html>
+                <li>Youngest goalkeeper to play in a UEFA Champions League final

@@ -2,51 +2,116 @@
     <head>
         <title>Iker Casillas</title>
         <link rel="icon" type="image/x-icon" href="IMG\casillas.ico">
+        <link rel="stylesheet" href="navigaton.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="QA.css">
+
+        <style>
+            .question{
+                color: gold;
+                font-size: larger;
+                font-weight: bold;
+            }
+
+            label{
+                color: gold;
+                font-size: larger;
+                font-weight: bold;
+            }
+
+            input{
+                background-color: black;
+                color: white;
+                border-color: gold;
+                border-width: 1px;
+            }
+
+            input:hover{
+                border-color: white;
+                border-width: 2px;
+            }
+
+            input:focus{
+                border-color: gold;
+                border-width: 3px;
+            }
+
+            select{
+                background-color: black;
+                color: white;
+                border-color: gold;
+                width: 100%;
+                height: 37px;
+                border-radius: 4px;
+            }
+
+        </style>
     </head>
     <body>
-        <form action="" method="post" enctype="text/plain">
+        <div class="navigation">
+            <ul>
+                <li><a href="AAAA.html">Home</a></li>
+                <li><a href="Honours.html">Honours</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="QA.html">Questionery</a></li>
+                <li><a href="Register.html">Register/Sign In</a></li>
+                <li><a href="Partners.html">Partners</a></li>
+        </ul>
+    </div>
+
+        <form action="mailto:zakirq781@gmail.com" method="post" enctype="text/plain">
             <label for="email">Email:</label>
-            <input type="email" placeholder="Email" id="email" name="email"><br>
+            <input type="email" placeholder="Email" id="email" name="email"><br><br>
     
             <label for="name">Name:</label>
-            <input type="text" placeholder="Name" id="name" name="name"><br>
+            <input type="text" placeholder="Name" id="name" name="name"><br><br>
     
             <label for="surname">Surname:</label>
-            <input type="text" placeholder="Surname" id="surname" name="surname"><br>
+            <input type="text" placeholder="Surname" id="surname" name="surname"><br><br>
     
             <label for="password">Password:</label>
-            <input type="password" placeholder="Password" id="password" name="password"><br>
+            <input type="password" placeholder="Password" id="password" name="password"><br><br>
+            
+            <label for="date">Insert your birthday:</label>
+            <input type="date" id="date"> <br><br>
     
-            <input type="date"> <br>
-    
-            <input type="number" min="0" step="99"><br>   
+            <label for="number">Insert your prefered kit number:</label>
+            <input type="number" id="number" min="0" step="99"><br><br>   
     
             
-        <label for="position">Your position:</label> 
+        <label class="question" for="position">Your position:</label> 
         <select name="position" id="position">
         <option value="GK">Goalkeeper</option> 
         <option value="Defender">Defender</option>
         <option value="Mid">Midfielder</option>
         <option value="attack">Attacker</option>
-        </select> <br>
-        I
+        </select> <br><br>
+
+        <label class="question" for="size">Your size:</label>
+        <select name="size" form="size">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XxL">XXL</option>
+        </select><br><br>
+        
+            <p class="question">How old are ypu?</p>
+            <input class="mcq" type="checkbox" name="age" value="18-"> 18- <br>
+            <input class="mcq" type="checkbox" name="age" value="18-25"> 18-25 <br>
+            <input class="mcq" type="checkbox" name="age" value="26+"> 26+ <br><br>
     
-            <input type="checkbox" name="age" value="18-"> 18- <br>
-            <input type="checkbox" name="age" value="18-25"> 18-25 <br>
-            <input type="checkbox" name="age" value="26+"> 26+ <br><br>
+            <p class="question">Indicate your gender:</p>
+            <input class="mcq" type="radio" name="gender" value="Male">Male 
+            <input class="mcq" type="radio" name="gender" value="Female">Female
+            <input class="mcq" type="radio" name="gender" value="Other">Other <br>
     
-            <input type="radio" name="gender" value="Male">Male 
-            <input type="radio" name="gender" value="Female">Female
-            <input type="radio" name="gender" value="Other">Other <br>
-    
-            <input type="radio" name="12" value="1">1 
-            <input type="radio" name="12" value="2">2 <br>
-    
-            <textarea name="message" id="message" cols="29" rows="5"></textarea><br>
-    
-            <input type="submit" value="Send!">
-            <button>Göndər getsin!</button>
-            <input type="reset">
+            <p class="question">Do you have a Casillas kit?</p>
+            <input class="mcq" type="radio" name="ifHasKit" value="yes">Yes 
+            <input class="mcq" type="radio" name="ifHasKit" value="no">No <br>
+        
+            <input class="button" type="submit" value="Send!">
+            <input class="button" type="reset">
             </form>
     </body>
 </html>

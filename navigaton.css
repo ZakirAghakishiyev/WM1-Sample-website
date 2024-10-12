@@ -1,0 +1,31 @@
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    background-color: rgba(255, 217, 0, 0.166);
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px;
+    border-top: 5px;
+    border-color: white;
+  }
+
+  .navigation ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+
+  .navigation ul li a {
+    text-decoration: none;
+    color: gold;
+    padding: 8px 16px;
+    border: 1px solid gold;
+    border-radius: 5px;
+  }
+
+  .navigation ul li a:hover {
+    background-color: gold;
+    color: black;
+  }
+
+  

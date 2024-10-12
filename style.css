@@ -1,6 +1,4 @@
-*{
-    color: silver;
-}
+
 
 /*a:visited{
     color: rgb(126, 126, 126);
@@ -27,32 +25,7 @@ p{
     font-size: 18px;
 }
 
-.navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 15px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-  }
 
-  .navigation ul li {
-    display: inline;
-    margin-right: 15px;
-  }
-
-  .navigation ul li a {
-    text-decoration: none;
-    color: gold;
-    padding: 8px 16px;
-    border: 1px solid gold;
-    border-radius: 5px;
-  }
-
-  .navigation ul li a:hover {
-    background-color: gold;
-    color: black;
-  }
 
 .Name{
     margin-left: 5px;

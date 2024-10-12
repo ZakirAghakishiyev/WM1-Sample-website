@@ -1,0 +1,90 @@
+
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: black;
+     color: white;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: gold;
+}
+
+h1{
+    color: gold;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.form-container div {
+    flex: 1 1 30%; 
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input[type="date"] {
+    padding: 8px;
+    font-size: 14px;
+}
+
+input[type="tel"] {
+    font-family: monospace;
+}
+
+input:focus {
+    border-color: gold;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: gold;
+    color: black;
+    background-color: gold;
+}
+
+
+
+.button:hover {
+    background-color: gold;
+    color: black;
+    background-color: gold;
+}
+
+.button.apply{
+    color: black;
+}

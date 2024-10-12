@@ -3,6 +3,7 @@
         <title>Iker Casillas</title>
         <link rel="icon" type="image/x-icon" href="IMG/casillas.ico">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="navigaton.css">
         <style>
             .brands {
                 display: flex;
@@ -13,7 +14,7 @@
             .kings {
                 display: flex;
                 padding: 10px; 
-                flex-direction:column;
+                /* flex-direction:column; */
                 border: 1px double gold;
                 border-radius: 5px;
                 margin: 0;
@@ -28,16 +29,25 @@
             }
             
             .kings img{
-                width: 15%;
+                width: 100%;
                 margin: 3px;
                 justify-content: space-between;
             }
 
-            .kings > p {
+            .kings p {
+                width: 70%;
                 padding: 10px;
                 color: gold;
                 font-family: Arial, sans-serif;
+                font-size: 30px;
             }
+            .logos{
+                width: 18%;
+
+                display: flex;
+                flex-direction: column;
+            }
+
         </style>
     </head>
     <body>
@@ -63,14 +73,17 @@
 
         <h2>Kings League:</h2>
         <div class="kings">
-            <a href="https://kingsleague.pro/en/teams/12-1k-fc" target="_blank">
-                <img src="IMG/kings_league.png" alt="Kings League" ></a>
-            <a href="https://kingsleague.pro/en/teams/12-1k-fc" target="_blank">
-            <img  src="IMG/1K_F.C_logo.png" alt="1K"></a>
+            <div class="logos">
+                <a href="https://kingsleague.pro/en/teams/12-1k-fc" target="_blank">
+                    <img src="IMG/kings_league.png" alt="Kings League" ></a>
+                <a href="https://kingsleague.pro/en/teams/12-1k-fc" target="_blank">
+                <img  src="IMG/1K_F.C_logo.png" alt="1K"></a>
 
-            <p>"As president of 1K FC in the Kings League, I wanted to create a team that represents passion, teamwork, and a love for the game. We focus on giving talented players a chance to shine, and our team is built on hard work and dedication. The Kings League is a fresh and exciting challenge, and 1K FC is here to compete with intensity and honor the spirit of football. It's a new era, and I'm proud to lead this team on this journey."</p>
+            </div>
+
+            <p>"As the president of 1K FC in the Kings League, my vision was to create a football club that embodies the very essence of passion, teamwork, and an unwavering love for the beautiful game. Our mission is to offer a platform for talented, dedicated players to showcase their skills and shine on a bigger stage. We believe in hard work, perseverance, and a commitment to excellence, and these values are deeply ingrained in the DNA of our team. The Kings League presents a unique and thrilling challenge, one that 1K FC eagerly embraces with ambition and a desire to leave a lasting mark. We're not just here to participate; we are here to compete fiercely and demonstrate the true spirit of football. Every match is an opportunity to grow, learn, and push our limits, and our players are united by their determination to succeed. This is more than just a club—1K FC represents a new era in football, where talent meets opportunity, and I'm incredibly proud to be at the forefront, leading this team on its journey towards greatness."</p>
             
-
+            
         </div>
     </body>
 </html>

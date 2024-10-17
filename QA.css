@@ -1,4 +1,6 @@
-
+li{
+    list-style-type: none;
+}
 
 form {
     max-width: 800px;

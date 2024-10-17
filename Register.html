@@ -95,20 +95,36 @@
             <option value="XL">XL</option>
             <option value="XxL">XXL</option>
         </select><br><br>
-        
+            
+            </ul>
+
             <p class="question">How old are ypu?</p>
-            <input class="mcq" type="checkbox" name="age" value="18-"> 18- <br>
-            <input class="mcq" type="checkbox" name="age" value="18-25"> 18-25 <br>
-            <input class="mcq" type="checkbox" name="age" value="26+"> 26+ <br><br>
-    
+            <ul>
+                <li>
+                    <span>18-</span><input class="mcq" type="checkbox" name="age" value="18-">
+                    <span>18-25</span><input class="mcq" type="checkbox" name="age" value="18-25">
+                    <span>26+</span><input class="mcq" type="checkbox" name="age" value="26+">
+                </li>
+            </ul>
             <p class="question">Indicate your gender:</p>
-            <input class="mcq" type="radio" name="gender" value="Male">Male 
-            <input class="mcq" type="radio" name="gender" value="Female">Female
-            <input class="mcq" type="radio" name="gender" value="Other">Other <br>
+            <ul>
+                <li> 
+                    <span>Male</span><input class="mcq" type="radio" name="gender" value="Male"> 
+                    <span>Female</span><input class="mcq" type="radio" name="gender" value="Female">
+                    <span>Other</span><input class="mcq" type="radio" name="gender" value="Other"> 
+                </li>
+            </ul>
+
+
     
             <p class="question">Do you have a Casillas kit?</p>
-            <input class="mcq" type="radio" name="ifHasKit" value="yes">Yes 
-            <input class="mcq" type="radio" name="ifHasKit" value="no">No <br>
+            <ul>
+                <li>
+                    <span>Yes</span></span><input class="mcq" type="radio" name="ifHasKit" value="yes"> 
+                    <span>No</span></span><input class="mcq" type="radio" name="ifHasKit" value="no">
+                </li>
+            </ul>
+
         
             <input class="button" type="submit" value="Send!">
             <input class="button" type="reset">

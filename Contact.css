@@ -1,0 +1,197 @@
+h1{
+    font-family: 'Open Sans', Arial, sans-serif; 
+    font-size: 35px;
+    margin: 0;
+}
+
+.contacts a{
+    font-size: 30px;
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+    padding: 50px;
+}
+
+.linkedin{
+    margin-top: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    height: 200px;
+    background-image: linear-gradient(to right, black , #0077B5);
+}
+
+.contacts div{
+    height: 400px;
+    display: flex;
+
+}
+
+.linkedin .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.linkedin a{
+    margin-top: 5px;
+    color: black;
+    text-decoration: none;
+    border: solid 2px;
+    border-color:#0077B5;
+    border-radius: 10%;
+}
+
+.linkedin a:hover{
+    color:#0077B5;
+    border: solid 2px;
+    border-color: black;
+    background-color: black;
+    border-radius: 10%;
+}
+
+.tc-linkedin{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-right: 50px; 
+    text-align: right; 
+    margin-top: 300px;
+}
+
+/*------------------------------------------------------------------*/
+
+.insta{
+    margin-top: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    height: 200px;
+    background-image: linear-gradient(to right, #E1306C , black);
+    flex-direction: row-reverse;
+}
+
+.tc-insta{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-right: 50px; 
+    text-align: right; 
+    margin-top: 300px;
+    margin-left: 50px;
+}
+
+.insta img{
+    display: flex;
+    align-items: flex-end;
+}
+
+.insta h1{
+    color:black;
+}
+
+.insta a{
+    margin-top: 5px;
+    color: black;
+    text-decoration: none;
+    border: solid 2px;
+    border-color:#E1306C;
+    border-radius: 10%;
+}
+
+.insta a:hover{
+    color:#E1306C;
+    border: solid 2px;
+    border-color: black;
+    background-color: black;
+    border-radius: 10%;
+}
+
+/*===========================================================*/
+
+.x{
+    margin-top: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    height: 200px;
+    background-image: linear-gradient(to right, black , white);
+}
+
+.x .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.x a{
+    margin-top: 5px;
+    color: black;
+    text-decoration: none;
+    border: solid 2px;
+    border-color:white;
+    border-radius: 10%;
+}
+
+.x a:hover{
+    color: white;
+    border: solid 2px;
+    border-color: black;
+    background-color: black;
+    border-radius: 10%;
+}
+
+.tc-x{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-right: 50px; 
+    text-align: right; 
+    margin-top: 300px;
+}
+
+
+
+/*=======================================================*/
+
+.face{
+    margin-top: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    height: 200px;
+    background-image: linear-gradient(to right, #4267B2 , black);
+    flex-direction: row-reverse;
+}
+
+.tc-face{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-right: 50px; 
+    text-align: right; 
+    margin-top: 300px;
+    margin-left: 50px;
+}
+
+.face img{
+    display: flex;
+    align-items: flex-end;
+}
+
+.face a{
+    margin-top: 5px;
+    color: black;
+    text-decoration: none;
+    border: solid 2px;
+    border-color:#4267B2;
+    border-radius: 10%;
+}
+
+.face a:hover{
+    color:#4267B2;
+    border: solid 2px;
+    border-color: black;
+    background-color: black;
+    border-radius: 10%;
+}
